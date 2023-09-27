@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        .main{
+            background-image: url("./wallpaperflare.com_wallpaper\ \(4\).jpg") ;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 620px;
+        }
+        .img{
+            position:absolute;
+            height: 150px;
+            width: 150px;
+            margin-top: 200px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 850px;
+            border-radius: 50%;
+            border: solid white;
+            border-width: 5px;
+        }
+        .intro{
+            position: absolute;
+            margin-top: 250px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 700px;
+            color: white;
+            font-family: cursive;
+        }
+        .header{
+            display:flex ;
+            justify-content: space-between;
+            color: white;
+            padding: 10px;
+            margin-left: 100px;
+            font-family: cursive;
+            font-weight: bold;
+        }
+        .portfolio{
+            font-size: xx-large;
+        }
+        .content > a{
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            margin-left:10px ;
+            margin-top: 10px;
+            justify-content: space-between;
+        }
+        .about{
+            background-color: black;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 400px;
+        }
+        .photo{
+            position:absolute;
+            height: 250px;
+            width: 250px;
+            margin-top: 70px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 80px;
+            border-radius: 30px;
+            border: solid white;
+            border-width: 4px;
+        }
+        .aboutme{
+            position: absolute;
+            color: white;
+            margin-top: 50px;
+            margin-left: 500px;
+        }
+        .detail{
+            position: absolute;
+            color: white;
+            margin-left: 500px;
+            margin-top: 120px;
+            margin-right: 100px;
+            justify-content: space-between;
+            display: flex;
+            font-size: larger;
+        } 
+        .skill{
+            background-image: url("./hill.jpg") ;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 620px;
+        }
+        .available{
+            position: absolute;
+            color: white;
+            margin-left: 580px;
+            padding-top: 40px;
+        }
+        .avdata{
+            position: absolute;
+            color: white;
+            margin-left: 350px;
+            margin-right: 350px;
+            padding-top: 100px;
+        }
+        .offensive{
+            color: white;
+            position: absolute;
+            background-color: rgb(113, 109, 109);
+            border-radius: 10px;
+            margin-top: 250px;
+            margin-left: 100px;
+            margin-right: 1050px;
+            padding-left: 30px;
+            padding-right: 10px;
+        }
+        .offensive:hover{
+            width: 300px;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .defensive{
+            color: white;
+            position: absolute;
+            background-color: rgb(113, 109, 109);
+            border-radius: 10px;
+            margin-top: 250px;
+            margin-left: 570px;
+            margin-right: 580px;
+            padding-left: 30px;
+            padding-right: 10px;
+        }
+        .defensive:hover{
+            width: 300px;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .marketing{
+            color: white;
+            position: absolute;
+            background-color: rgb(113, 109, 109);
+            border-radius: 10px;
+            margin-top: 250px;
+            margin-left: 1050px;
+            margin-right: 100px;
+            padding-left: 30px;
+            padding-right: 10px;
+        }
+        .marketing:hover{
+            width: 300px;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .education{
+            background-image: url("educ.jpg");
+            height: 200px;
+            width: 1470px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 620px;
+        }
+        .edu{
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 40px;
+            font-size: xx-large;
+        }
+        .school{
+            position: absolute;
+            margin-left: 50px;
+            margin-top: 130px;
+            margin-right: 200px;
+            font-size: larger;
+        }
+        .college{
+            position: absolute;
+            margin-left: 50px;
+            margin-top: 330px;
+            margin-right: 200px;
+            font-size: larger;
+        }
+        .bachelor{
+            position: absolute;
+            margin-left: 50px;
+            margin-top: 530px;
+            margin-right: 200px;
+            font-size: larger;
+        }
+        .theend{
+            background-color: rgb(67, 22, 22);
+            border-color: aqua;
+            padding: 10px;
+        }
+        .contact{
+            position: absolute;
+            margin-left: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Photo -->
+    <div class = "main">
+        <div class="image">
+            <img src="./final.jpg" alt="profile" class = "img">
+            <div class="header">
+                <h2 class="portfolio">My Portfolio</h2>
+                <div class="content">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="intro">
+                <h1><big>Hello, I'm Aswin Paudel</big></h1>
+                <pre><h1><big>      Ethical Hacker</big></h1></pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div>
+            <img src="./me.JPG" class="photo">
+        </div>
+        <div>
+            <h1 class="aboutme">About Me</h1>
+        <p class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore magni saepe amet magnam voluptate 
+                reprehenderit ullam ratione autem facere consequuntur. Neque quos hic fugiat quas nobis quis ducimus, esse est commodi 
+                aperiam sint, harum deserunt obcaecati odio ea sequi quibusdam quo ipsam vitae, voluptate tenetur. Mollitia qui delectus 
+                officiis temporibus dicta vero eveniet placeat reiciendis libero alias. Doloremque sequi ipsam quisquam? Fugit, quia vel, 
+                et laudantium similique, ipsum quas quod repudiandae voluptas vero labore asperiores? Voluptatum eum hic, recusandae, quam 
+                veniam fugit optio ducimus nihil saepe cum deserunt tempora veritatis, at numquam tempore facere ullam eligendi dolore 
+                dolorem asperiores maiores?</p>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div>
+            <h2 class="available"><big>I'm Available For Hire</big></h2>
+            <br>
+            <p class="avdata">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem ratione quas aliquam rem 
+                voluptatibus eveniet quaerat dolores, consectetur velit labore necessitatibus reiciendis laboriosam ab nesciunt. 
+                Omnis nulla possimus aspernatur tenetur?</p>
+        </div>
+        <div class="offensive">
+            <h3><big>Offensive</big></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, laborum tenetur numquam accusantium, 
+                consequatur earum unde cumque placeat pariatur quod sit magni consectetur debitis accusamus adipisci 
+                inventore hic! Dolor, incidunt.</p>
+        </div>
+        <div class="defensive">
+            <h3><big>Defensive</big></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, laborum tenetur numquam accusantium, 
+                consequatur earum unde cumque placeat pariatur quod sit magni consectetur debitis accusamus adipisci 
+                inventore hic! Dolor, incidunt.</p>
+        </div>
+        <div class="marketing">
+            <h3><big>Marketing</big></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, laborum tenetur numquam accusantium, 
+                consequatur earum unde cumque placeat pariatur quod sit magni consectetur debitis accusamus adipisci 
+                inventore hic! Dolor, incidunt.</p>
+        </div>
+    </div>
+    <div class="education">
+        <div>
+            <h1 class="edu"><big>Education</big></h1>
+        </div>
+        <div class="school">
+            <h2>School</h2>
+            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+A, iusto quidem tenetur nemo reprehenderit voluptatem nulla
+enim saepe tempore ratione!
+            </pre>
+        </div>
+        <div class="college">
+            <h2>College</h2>
+            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+A, iusto quidem tenetur nemo reprehenderit voluptatem nulla
+enim saepe tempore ratione!
+            </pre>
+        </div>
+        <div class="bachelor">
+            <h2>Bachelor</h2>
+            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+A, iusto quidem tenetur nemo reprehenderit voluptatem nulla
+enim saepe tempore ratione!
+            </pre>
+        </div>
+    </div>
+    <div class="theend">
+        <div class="Contact">
+            <h3>Contact Me</h3>
+            <form>
+                <label for="name"><b>Full Name : </b></label>
+                <input type = "text" id="name" placeholder="Enter your Name">
+                <br><br>
+                <label for="email"><b>Email : </b></label>
+                <input type="text" id="lname" placeholder="someone@gmail.com">
+                <br><br>
+                <label for="number"><b>Contact : </b></label>
+                <input type="number" id="number" placeholder="98478XXXXX">
+                <br><br>
+                <label for="message"><b>Message : </b></label> <br>
+                <textarea id="message" cols="50" rows="10"></textarea> <br><br>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
